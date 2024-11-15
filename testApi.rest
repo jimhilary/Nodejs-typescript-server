@@ -1,0 +1,19 @@
+GET http://localhost:3000/server/get
+###
+POST http://localhost:3000/server/create
+Content-Type: application/json
+
+{
+    "name":"test"
+}
+###
+PUT  http://localhost:3000/server/edit/67372c363b450e8132166d9d
+Content-Type: application/json
+
+{
+    "name": "you"
+}
+###
+DELETE   http://localhost:3000/server/delete/67372c363b450e8132166d9d
+Content-Type: application/json
+
